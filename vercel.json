@@ -1,0 +1,9 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/chat",
+      "destination": "https://ae0da470-0055-4470-82f8-36fec009c2c8-00-1p8qd4kencj42.sisko.replit.dev/api/chat"
+    }
+  ]
+}
