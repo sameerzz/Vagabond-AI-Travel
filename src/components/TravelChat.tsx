@@ -68,7 +68,7 @@ export default function TravelChat() {
     setIsTyping(true);
 
     try {
-      const response = await fetch('https://a81aa14e-3208-4930-b10f-e70434fa4121-00-1pbkea4kwlyxm.sisko.replit.dev/api/chat', {
+      const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
